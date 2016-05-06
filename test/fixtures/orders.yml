@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: Dave Thomas
+  address: 965 Vineyard Way, Kingsburg, CA 93631
+  email: dave@example.org
+  pay_type: Check
+
+two:
+  name: Jose Cabrera Jr
+  address: 965 Vineyard Way, Kingsburg, CA 93631
+  email: josecabrerajr7@gmail.com
+  pay_type: Credit Card

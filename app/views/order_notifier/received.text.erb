@@ -1,0 +1,9 @@
+Dear <%= @order.name %>
+
+Thank you for your recent order from Depot company! You ordered the following items:
+
+<%= render @order.line_items -%>
+
+We will send you another email the moment your order ships. If
+you have any questions or need to change or cancel your order
+please email us at rubyonrails85@gmail.com.
