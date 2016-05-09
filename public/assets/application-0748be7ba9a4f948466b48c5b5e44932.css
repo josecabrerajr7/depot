@@ -1,0 +1,323 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 15, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+.locale {
+  float: right;
+  margin: -0.25em 0.1em;
+}
+
+/* line 20, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#banner {
+  background: #9c9;
+  padding-top: 10px;
+  border-bottom: 2px solid;
+  font: small-caps 60px/70px "Arial Black", sans-serif;
+  color: #282;
+  text-align: center;
+}
+/* line 27, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#banner img {
+  float: left;
+}
+
+/* line 31, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#notice {
+  color: #000 !important;
+  border: 2px solid red;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #f0f0f0;
+  font: bold smaller sans-serif;
+}
+
+/* line 39, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns {
+  background: #141;
+}
+/* line 41, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #main {
+  margin-left: 17em;
+  padding: 1em;
+  background: white;
+}
+/* line 46, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #side {
+  float: left;
+  padding: 1em 2em;
+  width: 13em;
+  background: #141;
+}
+/* line 52, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #side form, #columns #side div {
+  display: inline;
+}
+/* line 56, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #side input {
+  font-size: small;
+}
+/* line 60, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #side #cart {
+  font-size: smaller;
+  color: white;
+}
+/* line 64, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #side #cart table {
+  border-top: 1px dotted #595;
+  border-bottom: 1px dotted #595;
+  margin-bottom: 10px;
+}
+/* line 71, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #side h3 {
+  color: #fff;
+}
+/* line 75, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #side h5 {
+  color: #44a;
+}
+/* line 79, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #side latest {
+  width: auto;
+  height: auto;
+}
+/* line 83, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #side latest ul {
+  padding: 0;
+}
+/* line 86, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #side latest ul li {
+  list-style: none;
+}
+/* line 89, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+#columns #side latest ul li a {
+  color: #bfb;
+  font-size: small;
+}
+
+/* line 99, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+.depot_form fieldset {
+  background: #efe;
+}
+/* line 102, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+.depot_form fieldset legend {
+  color: #dfd;
+  background: #141;
+  font-family: sans-serif;
+  padding: 0.2em 1em;
+}
+/* line 111, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+.depot_form form label {
+  width: 5em;
+  float: left;
+  text-align: right;
+  padding-top: 0.2em;
+  margin-right: 0.1em;
+  display: block;
+}
+/* line 120, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+.depot_form form select, .depot_form form textarea, .depot_form form input {
+  margin-left: 0.5em;
+}
+/* line 124, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+.depot_form form .submit {
+  margin-left: 4em;
+}
+/* line 127, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/application.css.scss */
+.depot_form form br {
+  display: none;
+}
+/* line 5, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/carts.css.scss */
+.carts .item_price, .carts .total_line {
+  text-align: right;
+}
+/* line 8, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/carts.css.scss */
+.carts .total_line .total_cell {
+  font-weight: bold;
+  border-top: 1px solid #595;
+}
+/* line 6, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/products.css.scss */
+.products table {
+  border-collapse: collapse;
+}
+/* line 10, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/products.css.scss */
+.products table tr td {
+  padding: 5px;
+  vertical-align: top;
+}
+/* line 15, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/products.css.scss */
+.products .list_image {
+  width: 60px;
+  height: 70px;
+}
+/* line 20, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/products.css.scss */
+.products .list_description {
+  width: 60%;
+}
+/* line 23, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/products.css.scss */
+.products .list_description dl {
+  margin: 0;
+}
+/* line 27, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/products.css.scss */
+.products .list_description dt {
+  color: #244;
+  font-weight: bold;
+  font-size: larger;
+}
+/* line 33, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/products.css.scss */
+.products .list_description dd {
+  margin: 0;
+}
+/* line 38, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/products.css.scss */
+.products .list_actions {
+  font-size: x-small;
+  text-align: right;
+  padding-left: 1em;
+}
+/* line 44, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/products.css.scss */
+.products .list_line_even {
+  background: #e0f8f8;
+}
+/* line 48, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/products.css.scss */
+.products .list_line_odd {
+  background: #f8b0f8;
+}
+/* line 1, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #000;
+}
+/* line 23, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #666;
+}
+/* line 26, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 33, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 38, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 42, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 48, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 55, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 65, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 4, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/store.css.scss */
+.store {
+  /* An entry in the store catalog */
+}
+/* line 5, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/store.css.scss */
+.store h1 {
+  margin: 0;
+  padding-bottom: 0.5em;
+  font: 150% sans-serif;
+  color: #226;
+  border-bottom: 3px dotted #77d;
+}
+/* line 13, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/store.css.scss */
+.store .entry {
+  overflow: auto;
+  margin-top: 1em;
+  border-bottom: 1px dotted #77d;
+  min-height: 100px;
+}
+/* line 18, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/store.css.scss */
+.store .entry img {
+  width: 80px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  position: absolute;
+}
+/* line 24, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/store.css.scss */
+.store .entry h3 {
+  font-size: 120%;
+  font-family: sans-serif;
+  margin-left: 100px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #227;
+}
+/* line 32, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/store.css.scss */
+.store .entry p, .store .entry div.price_line {
+  margin-left: 100px;
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+}
+/* line 37, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/store.css.scss */
+.store .entry p form, .store .entry p div, .store .entry div.price_line form, .store .entry div.price_line div {
+  display: inline;
+}
+/* line 41, C:/Users/jcdev/Desktop/RubyAndRails/weekthree/depot/app/assets/stylesheets/store.css.scss */
+.store .entry .price {
+  color: #44a;
+  font-weight: bold;
+  margin-right: 3em;
+}
