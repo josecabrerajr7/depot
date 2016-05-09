@@ -9,7 +9,7 @@
  		</tr>
 </table>
 
-<%= button_to t('.empty'), cart, method: :delete, data: {confirm: 'Are you sure?'} %>
+<%= button_to t('.empty'), @cart, method: :delete, data: {confirm: 'Are you sure?'} %>
 
 <%= hidden_div_if( @hide_checkout_button) do %>
 	<%= button_to t('.checkout'), new_order_path, method: :get %>
