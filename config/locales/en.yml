@@ -26,6 +26,7 @@ en:
   orders:
     new:
       legend:           "Please Enter Your Details"
+      submit:           "Place Order"
     from:
       name:             "Name"
       address_html:     "Address"
